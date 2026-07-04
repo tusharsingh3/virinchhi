@@ -20,8 +20,8 @@ export default function Lightbox({
   useEffect(() => {
     const onKeyDown = (e: KeyboardEvent) => {
       if (e.key === 'Escape') onClose()
-      if (e.key === 'ArrowLeft') prev()
-      if (e.key === 'ArrowRight') next()
+      if (e.key === 'ArrowLeft') onIndexChange((index - 1 + images.length) % images.length)
+      if (e.key === 'ArrowRight') onIndexChange((index + 1) % images.length)
     }
     window.addEventListener('keydown', onKeyDown)
     document.body.style.overflow = 'hidden'
@@ -29,7 +29,7 @@ export default function Lightbox({
       window.removeEventListener('keydown', onKeyDown)
       document.body.style.overflow = ''
     }
-  }, [index])
+  }, [index, images.length, onClose, onIndexChange])
 
   return (
     <div
