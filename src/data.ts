@@ -77,6 +77,21 @@ export const PROJECTS: Project[] = [
       '/projects/roof-top-resort/7.jpg',
     ],
   },
+  {
+    title: 'The Muscle Gym',
+    category: 'Interiors',
+    location: 'Ahmedabad, Gujarat',
+    year: '2025',
+    image: '/projects/the-muscle-gym/5.jpg',
+    span: true,
+    images: [
+      '/projects/the-muscle-gym/5.jpg',
+      '/projects/the-muscle-gym/1.jpg',
+      '/projects/the-muscle-gym/2.jpg',
+      '/projects/the-muscle-gym/3.jpg',
+      '/projects/the-muscle-gym/4.jpg',
+    ],
+  },
 ]
 
 export const SERVICES = [
