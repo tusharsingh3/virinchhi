@@ -22,8 +22,8 @@ export default function Hero() {
           <em className="text-flame-bright">built</em> to endure.
         </h1>
         <p className="mt-8 max-w-xl text-base leading-relaxed text-ivory/80 md:text-lg">
-          Virinchhi Architects is a Ghaziabad-based design studio crafting residences,
-          workplaces and interiors where light, material and proportion come first.
+          Virinchhi Architects is a design studio creating thoughtful spaces where architecture,
+          interiors, and functionality come together.
         </p>
         <div className="mt-12 flex flex-wrap items-center gap-6">
           <a
