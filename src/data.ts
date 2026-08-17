@@ -129,18 +129,6 @@ export const SERVICES = [
 
 export const TEAM = [
   {
-    name: 'Ar. Sumit Chakarwarty',
-    role: 'Co-Founder & Architect | BIM Specialist',
-    initials: 'SC',
-    image: '/team/sumit.jpg',
-    bio: [
-      'Sumit brings a rare combination of architectural creativity and technical precision to every project he touches. With a Bachelor of Architecture and Master\'s in Construction Engineering & Management from CEPT University, he has built over 4 years of rich, hands-on experience across some of the most complex built environments imaginable — large-scale, IGBC-compliant Tier-3 Data Centers that demand an extraordinary level of coordination and detail.',
-      'As Co-Founder of Virinchhi Architects, Sumit plays a central role in shaping the firm\'s technical identity. He is a problem-solver at heart — whether he\'s developing BIM models in Revit, coordinating with structural and MEP engineers, or preparing detailed BOQs and feasibility reports, he approaches every challenge with calm focus and a genuine desire to get things right. His experience spans project inception all the way through to site execution, and notably, he has contributed to a BIM Handbook — a testament to how deeply he understands the discipline, not just as a practitioner but as someone who can document, teach, and refine best practices for others.',
-      'At Virinchhi, Sumit leads the technical and documentation side of projects, ensuring that every design is not just beautiful but buildable, compliant, and delivered on time.'
-    ],
-    quote: "Good architecture isn't just about what you see — it's about everything that makes it stand."
-  },
-  {
     name: 'Ar. Vaibhav Kummar',
     role: 'Founder & Principal Architect | Urban Planner | Advanced Vastu Consultant',
     initials: 'VK',
@@ -152,6 +140,18 @@ export const TEAM = [
       'He believes the best designs come from truly understanding a client\'s lifestyle, aspirations, and budget — and then finding the most elegant way to bring all of that together. He personally oversees each project at Virinchhi, ensuring the firm\'s commitment to quality is never compromised.'
     ],
     quote: "A great building begins long before the first drawing — it begins with listening."
+  },
+  {
+    name: 'Ar. Sumit Chakarwarty',
+    role: 'Co-Founder & Architect | BIM Specialist',
+    initials: 'SC',
+    image: '/team/sumit.jpg',
+    bio: [
+      'Sumit brings a rare combination of architectural creativity and technical precision to every project he touches. With a Bachelor of Architecture and Master\'s in Construction Engineering & Management from CEPT University, he has built over 4 years of rich, hands-on experience across some of the most complex built environments imaginable — large-scale, IGBC-compliant Tier-3 Data Centers that demand an extraordinary level of coordination and detail.',
+      'As Co-Founder of Virinchhi Architects, Sumit plays a central role in shaping the firm\'s technical identity. He is a problem-solver at heart — whether he\'s developing BIM models in Revit, coordinating with structural and MEP engineers, or preparing detailed BOQs and feasibility reports, he approaches every challenge with calm focus and a genuine desire to get things right. His experience spans project inception all the way through to site execution, and notably, he has contributed to a BIM Handbook — a testament to how deeply he understands the discipline, not just as a practitioner but as someone who can document, teach, and refine best practices for others.',
+      'At Virinchhi, Sumit leads the technical and documentation side of projects, ensuring that every design is not just beautiful but buildable, compliant, and delivered on time.'
+    ],
+    quote: "Good architecture isn't just about what you see — it's about everything that makes it stand."
   },
   {
     name: 'Vartika Arya',

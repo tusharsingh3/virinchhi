@@ -14,7 +14,7 @@ export default function Footer() {
               </span>
             </a>
             <p className="mt-6 max-w-xs text-sm leading-relaxed text-ivory/60">
-              Architecture, interiors and turnkey construction studio based in Ghaziabad.
+              Architecture • Interiors • Planning • PMC • Vastu Consultancy — creating thoughtful spaces with purpose, character, and lasting value.
             </p>
           </div>
 
